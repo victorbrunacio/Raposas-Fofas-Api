@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', sans-serif;
+}
+
+:root {
+    --corLetra : rgb(54, 169, 235);
+}
+
+body {
+    padding: 5vh 15vw;
+  background: url(img/bg_bggenerator_com.jpg) fixed no-repeat;
+    background-size:cover ;
+    color: var(--corLetra);
+    width: 100%;
+}
+
+button {
+    color: var(--corLetra);
+    padding: 3rem;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(133, 131, 243);
+    transition: 0.5s;
+}
+h1{
+    font-size: 5rem;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+}
+.tudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#raposas{
+    border-radius: 8px;
+    border: 5px solid rgb(0, 0, 0);
+    height: 50vh;
+    margin: 3rem;
+}
+
+
