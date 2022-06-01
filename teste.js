@@ -14,4 +14,5 @@ async function pegaImg () {
 
 async function trocaRaposa() {
     imagemRaposa.src = await pegaImg()
+    imagemRaposa.style =  " animation: shake 0.4s;"
 }
