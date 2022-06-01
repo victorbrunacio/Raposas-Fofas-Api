@@ -36,12 +36,11 @@ button:hover {
 }
 h1{
     font-size: 5rem;
-    display:  flex;
-    align-items: center;
-    justify-content: center;
+    
 }
 .tudo {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -65,4 +64,39 @@ h1{
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+
+
+/** mobile**/
+@media (max-width: 900px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .tudo {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #raposas{
+        border-radius: 8px;
+        border: 5px solid rgb(0, 0, 0);
+        height: 30vh;
+        margin: 3rem;
+    }
+    button {
+        margin-top: 5rem;
+        padding: 5rem;
+        
+    }
+    h1{
+        font-size: 4rem;
+        margin: auto;
+        text-align: center;
+    }
+    body{
+        margin: 0;
+    }
+}
 
